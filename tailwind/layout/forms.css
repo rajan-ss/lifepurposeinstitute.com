@@ -1,0 +1,204 @@
+.form-control,
+input:not([type='radio']):not([type='checkbox']):not([type='submit']),
+select,
+textarea {
+  @apply block 
+  w-full 
+  h-12  
+  lg:h-[52px]  
+  px-2 
+  py-4 
+  lg:pl-6 
+  font-normal 
+  leading-tight 
+  text-sm 
+  text-black 
+  bg-white 
+  bg-clip-padding 
+  border 
+  border-black/[0.08] 
+  rounded-md 
+  placeholder:text-black/50 
+  transition 
+  ease-in-out 
+  duration-500 
+  focus:text-black 
+  focus:border-primary 
+  focus:outline-none 
+  focus:shadow-lg;
+}
+
+select,
+select.form-control {
+  @apply text-black/50
+  placeholder:text-black/50 
+  focus:text-black 
+  focus:bg-white
+  appearance-none;
+}
+
+textarea,
+textarea.form-control {
+  @apply h-32 resize-none overflow-hidden;
+}
+
+input[type='checkbox'] + label {
+  @apply cursor-pointer;
+}
+
+.form-group {
+  @apply mb-4 w-full sm:w-1/2 px-2;
+}
+
+/* Form validation */
+.messages {
+  @apply hidden;
+}
+
+.has-error .form-control {
+  @apply border-danger;
+}
+
+.has-error label {
+  @apply text-danger;
+}
+
+.has-error input[type='checkbox'],
+.has-error input[type='radio'] {
+  @apply shadow-[inset_0_0_2px_1px_#dc3545];
+}
+
+.has-error .g-recaptcha-v2-visible iframe {
+  @apply border border-danger;
+}
+
+.thank-you-message {
+  @apply text-center 
+  text-base 
+  leading-normal
+  bg-green-600
+  text-white 
+  rounded-lg
+  p-4
+  m-0;
+}
+
+.thank-you-message a {
+  @apply whitespace-nowrap
+  font-bold
+  text-ss-purple;
+}
+
+.thank-you-heading {
+  @apply text-xl;
+}
+
+.form-section-0 {
+  @apply flex flex-wrap -mx-2;
+}
+
+.form-header {
+  @apply [&_p]:text-black/60 lg:text-lg;
+}
+
+/* input[type="checkbox"] {
+  @apply before:size-[10px] before:flex before:items-center before:justify-center before:absolute before:top-0 before:left-0 before:block before:bg-ss-purple after:content-['\e904'] after:text-white after:size-[10px] after:flex after:items-center after:justify-center after:absolute after:top-0 after:left-0 after:font-icomoon after:text-[9px] hidden;
+} */
+
+.checkbox {
+  @apply flex items-start gap-3;
+}
+
+input[type='checkbox'] {
+  @apply mt-[2px];
+}
+
+.form-footer {
+  @apply pt-10;
+}
+
+select {
+  appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url('../images/icon-drop.png');
+  background-position: calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-right: 2rem !important;
+
+  /* &::-ms-expand {
+		display: none;
+	} */
+}
+
+.form-wrapper {
+  @apply bg-white shadow-lg p-8 rounded-xl;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .top_label .gfield_label {
+  @apply text-sm
+  font-normal
+  ;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper ul.gform_fields {
+  @apply flex
+  flex-wrap
+  -mx-4;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper ul li.gfield {
+  @apply 
+  basis-full
+  max-w-[100%]
+  px-4
+  mb-0;
+}
+
+.form-wrapper .gform_wrapper .top_label li.gfield.gf_left_half,
+.gform_wrapper .top_label li.gfield.gf_right_half {
+  @apply md:basis-1/2
+  md:max-w-[50%];
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .field_description_below .gfield_description {
+  @apply hidden;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .gform_footer input.button, .gform_legacy_markup_wrapper .gform_footer input[type=submit] {
+  @apply btn
+  btn-primary
+  btn-block;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper ul li.gfield_error {
+  @apply bg-transparent
+  border-none;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+  @apply border-danger;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper div.validation_error {
+  @apply text-danger
+  border-danger;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .gform_validation_errors>h2 {
+  @apply text-danger;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .gform_footer {
+  @apply relative;
+}
+
+.form-wrapper .gform_legacy_markup_wrapper .gform_ajax_spinner {
+  @apply absolute
+  top-2/4
+  -translate-y-2/4
+  right-4
+  !block;
+}

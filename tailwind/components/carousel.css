@@ -1,0 +1,36 @@
+/* slick-same-height */
+.slick-same-height {
+  @apply md:[&_.slick-track]:flex md:[&_.slick-slide]:h-[inherit];
+}
+
+.hide-dots .slick-dots {
+  @apply !hidden;
+}
+
+.hide-dots .slick-arrow {
+  @apply !hidden;
+}
+
+.testimonialSwiper{
+  @apply pt-4 sm:pt-8 lg:pt-12 flex flex-col justify-center items-center;
+}
+
+.testimonialSwiper .swiper-slide{
+  @apply h-auto min-h-[407px] text-center bg-white border border-t-0 border-solid border-black/10 rounded-lg px-5 pb-6 flex flex-col;
+}
+
+.testimonialSwiper .swiper-buttons{
+  @apply pt-10 md:pt-12 flex justify-center items-center space-x-10;
+}
+
+.testimonialSwiper .swiper-button-next,.testimonialSwiper .swiper-button-prev{
+  @apply relative flex justify-center items-center rounded-full border border-solid border-ss-purple-200 bg-white hover:bg-ss-purple-200 size-14 after:font-icomoon after:text-2xl after:leading-none after:content-['\e901'] after:text-ss-purple-200 hover:after:text-white;
+}
+
+.testimonialSwiper .swiper-button-next{
+  @apply after:content-['\e905'];
+}
+
+.testimonialSwiper .date{
+  @apply flex-1 flex items-end justify-center;
+}

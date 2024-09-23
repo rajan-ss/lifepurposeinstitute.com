@@ -1,0 +1,9 @@
+.stretched-link {
+    @apply
+    before:inset-0
+    before:absolute
+}
+
+.clip{
+    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+}
