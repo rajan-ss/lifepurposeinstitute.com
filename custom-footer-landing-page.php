@@ -7,7 +7,9 @@
         <img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo.png" alt="Life Purpose Institute" width="127" height="97" loading="lazy">
       </figure>
     </div>
-    <p>Become a Certified Life Coach (C.L.C.) or Certified Spiritual Coach (C.S.C.) through our ICF Accredited programs. Start your own coaching practice after completing our Life Coach Certification Program.</p>
+    <p>Become a Certified Life Coach (C.L.C.) or Certified Spiritual Coach (C.S.C.) through our ICF Accredited programs. Start your own coaching practice after completing our Life Coach Certification Program. 
+    <a href="https://lifepurposeinstitute.com/life-coach-certification/" target="_blank" class="underline hover:no-underline focus:no-underline">Read More!</a>
+    </p>
     <div class="flex max-sm:flex-col max-sm:space-y-4 sm:space-x-8 lg:space-x-16 items-start">
       <div class="relative flex items-center group">
         <a class="md:text-lg font-medium flex items-center justify-center" href="tel:8584843400">

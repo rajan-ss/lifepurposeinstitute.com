@@ -139,7 +139,9 @@ include 'custom-header-landing-page.php'; ?>
 				<div class="w-full lg:max-w-[600px] xl:text-lg">
 					<h2>Life Coach Certification </h2>
 					<strong class="block text-ss-purple-200 mb-4">Transform Lives and Build a Meaningful Career with Our Life Coach Certification: Master Powerful Coaching Techniques for Personal and Professional Growth</strong>
-					<p>Our Life Coach Certification program equips you with the tools and skills needed to transform lives while cultivating a meaningful career. Our step-by-step coaching method has empowered coaches with effective techniques for individual and group coaching. You'll gain expertise in relationship, health, career, transition and life balance coaching, enabling you to help clients overcome obstacles and achieve lasting change. With flexible schedules, personalized marketing support, and a strong alumni community, our program offers everything you need to succeed as a Certified Life Coach. Join the growing profession of coaching and make a positive impact on the world while earning a fulfilling living.</p>
+					<p>Our Life Coach Certification program equips you with the tools and skills needed to transform lives while cultivating a meaningful career. Our step-by-step coaching method has empowered coaches with effective techniques for individual and group coaching. You'll gain expertise in relationship, health, career, transition and life balance coaching, enabling you to help clients overcome obstacles and achieve lasting change. With flexible schedules, personalized marketing support, and a strong alumni community, our program offers everything you need to succeed as a Certified Life Coach. Join the growing profession of coaching and make a positive impact on the world while earning a fulfilling living.
+						<a href="https://lifepurposeinstitute.com/life-coach-certification/" target="_blank" class="underline hover:no-underline focus:no-underline">Read More!</a>
+					</p>
 				</div>
 			</li>
 
@@ -152,7 +154,9 @@ include 'custom-header-landing-page.php'; ?>
 				<div class="w-full lg:max-w-[600px] xl:text-lg">
 					<h2>Spiritual Coach Certification</h2>
 					<strong class="block text-ss-purple-200 mb-4">Transform Lives and Cultivate a More Meaningful Career with Our Spiritual Life Coach Training Certification: Empower Others Through Spiritual Approaches and Healing Techniques</strong>
-					<p>Our Spiritual Coaching Certification integrates a spiritual perspective into life coaching. This program equips you with the same tools used for life coaching, enhanced by spiritual approaches. As a Spiritual Coach, you'll ask profound spiritual questions, discuss how clients can apply spirituality in their daily lives, and facilitate powerful spiritual and healing techniques. If helping others transform and connect with their spiritual side resonates with you, this program may be your calling. Our Advanced Specialty Course is also available for those who want to add spiritual tools to their life coaching practice, allowing you to make a profound impact in people's lives.</p>
+					<p>Our Spiritual Coaching Certification integrates a spiritual perspective into life coaching. This program equips you with the same tools used for life coaching, enhanced by spiritual approaches. As a Spiritual Coach, you'll ask profound spiritual questions, discuss how clients can apply spirituality in their daily lives, and facilitate powerful spiritual and healing techniques. If helping others transform and connect with their spiritual side resonates with you, this program may be your calling. Our Advanced Specialty Course is also available for those who want to add spiritual tools to their life coaching practice, allowing you to make a profound impact in people's lives.
+						<a href="https://lifepurposeinstitute.com/spiritual-coach-certification/" target="_blank" class="underline hover:no-underline focus:no-underline">Read More!</a>
+					</p>
 				</div>
 			</li>
 		</ul>
@@ -164,7 +168,9 @@ include 'custom-header-landing-page.php'; ?>
 	<div class="container flex flex-col justify-center items-center max-w-[1153px] [&_h2]:mb-4 [&_h2]:max-w-[870px] [&_h3]:h5 [&_h3]:mb-8 [&_h3]:leading-normal [&_h3]:normal-case [&_p]:text-white/60 [&_p]:mb-10">
 		<h2>Life Purpose Institute Offers Two Paths To Receive An ICF Credential</h2>
 		<h3>Obtain your ICF Credential and take your coaching career to the next level. Our 60-170 our training programs covers the core competencies extensively and are live, and interactive with an instructor.</h3>
-		<p>As ICF is the most powerful coaching organization in the world, it is anticipated that an ICF Credential will be a future new standard in the industry. An ICF credential is now a requirement for many jobs in human resources, health care, government, non-profit agencies and online platforms. There is already extensive media coverage of the coaching profession and ICF credentials. These trends are anticipated to grow. As such we recommend that students prepare for and obtain an ICF credential.</p>
+		<p>As ICF is the most powerful coaching organization in the world, it is anticipated that an ICF Credential will be a future new standard in the industry. An ICF credential is now a requirement for many jobs in human resources, health care, government, non-profit agencies and online platforms. There is already extensive media coverage of the coaching profession and ICF credentials. These trends are anticipated to grow. As such we recommend that students prepare for and obtain an ICF credential.
+			<a href="https://lifepurposeinstitute.com/icf-credentials/" target="_blank" class="underline hover:no-underline focus:no-underline">Read More!</a>
+		</p>
 		<div class="flex justify-center items-center space-x-5 sm:space-x-10 lg:space-x-20">
 			<figure>
 				<img src="<?php echo get_theme_file_uri(); ?>/assets/images/offers-level1.png" alt="Level 1" width="150" height="150" loading="lazy">
@@ -314,6 +320,7 @@ include 'custom-header-landing-page.php'; ?>
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 			</div>
+			<a href="https://lifepurposeinstitute.com/life-coach-certification/" target="_blank" class="underline hover:no-underline focus:no-underline mt-5">Read More!</a>
 		</div>
 	</div>
 </section>
@@ -331,7 +338,7 @@ include 'custom-header-landing-page.php'; ?>
 			</div>
 		</div>
 		<div id="footerForm" class="w-full lg:max-w-[480px]">
-			
+
 		</div>
 	</div>
 </section>
